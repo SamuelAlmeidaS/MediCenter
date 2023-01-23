@@ -289,3 +289,14 @@ footer {
 .footer-copy span {
     color: #5c5c5c;
 }
+
+.title-footer {
+    color: #FFFFFF;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.footer-paragrafh {
+    color: #FFFFFF;
+    font-size: 12px;
+}
