@@ -300,3 +300,46 @@ footer {
     color: #FFFFFF;
     font-size: 12px;
 }
+
+.widget-content, .textfooter {
+    color: #5c5c5c;
+}
+
+.widget-content p {
+    margin-bottom: 30px;
+}
+
+.widget-content-address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address div, .numbers div {
+    margin-bottom: 5px;
+}
+.email {
+    margin-right: 5px;
+}
+
+.email,
+ .years, 
+ .days {
+    color: #0079c7;
+}
+
+.social-midia {
+    display: flex;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #5c5c5c;
+}
+
+.years {
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
