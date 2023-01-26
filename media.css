@@ -1,0 +1,68 @@
+@media (max-width:600px) {
+    .text-banner {
+        margin-left: 15px;
+    }
+    .text-banner h1 {
+        font-size: 45px;
+    }
+
+    .text-banner h2 {
+        font-size: 17px;
+    }
+
+    .container-info {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .info1,
+    .info2,
+    .info3 {
+        padding: 10px;
+    }
+    .title-info {
+        font-size: 18px;
+    }
+    .info-desc {
+        font-size: 13px;
+        line-height: 15px;
+        margin: 16px 0;
+    }
+    .table-hours {
+        margin-top: 10px;
+    }
+    .monday, .saturday, .sunday  {
+        padding: 8px 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    #geral section  {
+        padding: 20px;
+    }
+
+    aside {
+        padding: 20px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+    }
+
+    .footer-area {
+        flex-direction: column;
+        padding: 22px;
+    }
+
+    .footer-copy {
+        padding: 0 22px;
+    }
+}
+
+@media (max-width: 930px) {
+    .menu {
+        display: none;
+    }
+
+}
