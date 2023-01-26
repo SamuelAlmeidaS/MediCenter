@@ -6,7 +6,7 @@
 }
 
 header{
-    height: 120px;
+    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -22,28 +22,30 @@ header{
     align-items: center;
 }
 
-.menu-container-mobile {
+.menu-mobile {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 0;
 }
 
 .mm-line {
-    width: 60px;
-    height: 10px;
-    background-color: #727272;
-    margin-bottom: 10px;
+    width: 50px;
+    height: 5px;
+    background-color: #39aae1;
+    margin-bottom: 5px;
 }
 
-.menu ul {
+nav ul {
     display: flex;
     text-transform: uppercase;
 }
 
-.menu ul li {
+nav ul li {
     list-style: none;
 }
 
-.menu ul li a {
+nav ul li a {
     text-decoration: none;
     padding: 15px;
     color: #727272;

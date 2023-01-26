@@ -58,11 +58,25 @@
     .footer-copy {
         padding: 0 22px;
     }
-}
 
-@media (max-width: 930px) {
-    .menu {
+    header .container {
+        flex-direction: row;
+        padding: 20px;
+        
+    }
+
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 110px;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
         display: none;
+    }
+
+    nav ul li {
+        margin-bottom: 15px;
     }
 
 }
