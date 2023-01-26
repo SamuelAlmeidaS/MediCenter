@@ -60,9 +60,14 @@
     }
 
     header .container {
+        height: auto;
         flex-direction: row;
         padding: 20px;
         
+    }
+
+    .menu-mobile {
+        display: flex;
     }
 
     nav ul {
