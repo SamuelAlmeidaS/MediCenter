@@ -22,16 +22,15 @@ header{
     align-items: center;
 }
 
-.menu {
+.menu-container-mobile {
     display: flex;
     align-items: center;
 }
 
 .mm-line {
-    display: none;
     width: 60px;
     height: 10px;
-    background-color: black;
+    background-color: #727272;
     margin-bottom: 10px;
 }
 
